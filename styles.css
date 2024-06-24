@@ -1,0 +1,438 @@
+* {
+    box-sizing: border-box;
+}
+
+body * {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* ======================== Header =========================== */
+
+header section {
+    max-width: 1320px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+
+header section div a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 136px;
+    height: 40px;
+
+    border: 1px solid #FF52C1;
+    box-shadow: 0px 0px 9px rgba(255, 82, 193, 0.22);
+    border-radius: 20px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #FF52C1;
+    text-decoration: none;
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+header section div a:hover {
+    border-color: #FF8ED7;
+    color: #FF8ED7;
+}
+
+/* ======================== Header ================================== */
+
+/* ======================== First section =========================== */
+
+main section {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.section1 {
+    padding-top: 145px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    color: #00252E;
+    text-align: center;
+    padding-bottom: 26px;
+}
+
+h1+p {
+    height: 90px;
+    left: 20.45%;
+    right: 20.55%;
+    top: calc(50% - 90px/2 - 435.5px);
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #00252E;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main section a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+    width: 400px;
+    height: 80px;
+
+    background: #FF52C1;
+    box-shadow: 0px 6px 13px rgba(0, 37, 46, 0.223053);
+    border-radius: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 120px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    transition: background 0.3s;
+}
+
+main section a:hover {
+    background: #FF8ED7;
+
+}
+
+/* ======================== First section =========================== */
+
+/* ======================== Statistic numbers ======================= */
+.numbers {
+    padding-top: 120px;
+    padding-bottom: 130px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 60px;
+    flex-wrap: wrap;
+}
+
+.bold {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 144px;
+
+    color: #00252E;
+}
+
+.p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+
+    color: #808E9A;
+}
+
+/* ================== Statistic numbers ================== */
+
+/* ================== Grow Together ====================== */
+
+section.gr {
+    min-width: 1440px;
+    min-height: 841px;
+    padding: 0;
+    background-image: url(./image/Path\ 6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.grow {
+    padding-top: 165px;
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #00252E;
+}
+
+.grow p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00252E;
+
+}
+
+.grow div {
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.grow img {
+    width: 560px;
+    margin-left: 50px;
+}
+
+/* ================== Grow Together ====================== */
+
+/* ================== Flowing Conversations ============== */
+
+.flowing {
+    padding-top: 105px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 120px;
+}
+
+.flowing p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00252E;
+
+}
+
+.flowing div {
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flowing img {
+    width: 560px;
+}
+
+/* ================== Flowing Conversations ============== */
+
+/* ================== Your Users ========================= */
+.your {
+    min-width: 1440px;
+    min-height: 841px;
+    padding: 0;
+    background-image: url(./image/Path\ 55555.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 140px;
+}
+
+
+/* ======================= Your Users ========================= */
+
+/* ============ Ready To Build Your Community? ================ */
+
+.ready {
+    text-align: center;
+}
+
+/* ============ Ready To Build Your Community? ================ */
+
+/* ======================== Footer =========================== */
+
+.first {
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+}
+
+.firstP {
+    width: 340px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+}
+
+footer {
+    max-width: 1440px;
+    background-image: url('./image/Path\ 4.svg');
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.call a {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    text-decoration: none;
+    width: 222px;
+}
+
+.call li {
+    padding-bottom: 16px;
+}
+
+.call a {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+footer section {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding-top: 273px;
+    padding-bottom: 120px;
+    gap: 340px;
+}
+
+.newsletter {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: white;
+}
+
+.toP {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+    width: 344px;
+}
+
+button {
+    background: #FF52C1;
+    border-radius: 5px;
+    width: 160px;
+    height: 48px;
+    border: 0;
+    padding: 0;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+    transition: background 0.3s;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #FF8ED7;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 18px;
+    margin-top: 64px;
+}
+
+.social svg path {
+    transition: fill 0.3s ease;
+}
+
+.social svg:hover path {
+    fill: #00C7FA;
+}
+
+footer form {
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 120px;
+}
+
+ footer form div {
+    display: flex;
+    flex-direction: row;
+}
+
+input {
+    width: 320px;
+    height: 48px;
+    border-radius: 5px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #00252E;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+input:focus {
+    border-color: #FF4343;
+    outline: none;
+}
+
+.input {
+    display: flex;
+    gap: 40px;
+}
+
+
